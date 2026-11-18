@@ -1,19 +1,14 @@
-# 🎈 Blank app template
+# Personal Organizer
 
-A simple Streamlit app template for you to modify!
+My personal assistant workspace, maintained with Claude.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+- [Inbox](inbox.md) — quick captures
+- [Tasks](tasks.md) — to-do list
+- [Shopping](shopping.md) — things to buy
+- [Projects](projects/README.md) — personal projects
+- [Notes](notes/README.md) — notes & reference
+- [Journal](journal/) — what we discussed, by month
+- [Artifacts](artifacts.md) — links to dashboards/pages Claude published
 
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+How it works: chat with Claude, ask it to add/update/tick items. Claude edits these
+Markdown files and commits them, so everything stays versioned. See `CLAUDE.md` for the rules Claude follows.
